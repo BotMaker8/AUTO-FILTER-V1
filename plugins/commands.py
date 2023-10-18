@@ -27,7 +27,7 @@ async def start(client, message):
                 InlineKeyboardButton('🤖 MAIN CHANNEL', url=(MAIN_CHANNEL))
             ],
             [
-                InlineKeyboardButton('𝗡𝗘𝗪 𝗢𝗧𝗧 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 ', url=https://t.me/OTT_ARAKAL_THERAVAD_MOVIES"),
+                InlineKeyboardButton('𝗡𝗘𝗪 𝗢𝗧𝗧 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 ', url="https://t.me/OTT_ARAKAL_THERAVAD_MOVIES"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
