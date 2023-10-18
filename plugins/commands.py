@@ -24,10 +24,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 MAIN GROUP', url=(MAIN_CHANNEL))
+                InlineKeyboardButton('🤖 MAIN CHANNEL', url=(MAIN_CHANNEL))
             ],
             [
-                InlineKeyboardButton('ʜᴇʟᴘ', url=f"https://t.me/{temp.U_NAME}?start=start"),
+                InlineKeyboardButton('𝗡𝗘𝗪 𝗢𝗧𝗧 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 ', url=https://t.me/OTT_ARAKAL_THERAVAD_MOVIES"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
