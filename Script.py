@@ -1,30 +1,29 @@
 class script(object):
-    START_TXT = """<b>𝐻𝑒𝑙𝑙𝑜 👋 {}</b>,
+    START_TXT = """<b>Hᴇʟʟᴏ {}</b>
+    
+<b>എന്റെ പണി എന്ന് പറഞ്ഞാൽ പുതിയതായിട്ട് വരുന്ന  മൂവീസിന്റെ  ലിങ്ക് ഇടുക...!</b> <b><a href=https://t.me/ARAKAL_THERAVAD_MOVIES>ARAKAL THERAVAD MOVIES</a></b>,
 
-<b>I'ᴍ Aʟɪᴀ Bᴏᴛ Yᴏᴜ Cᴀɴ Cᴀʟʟ Mᴇ Aꜱ Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛ ᴠ1 🫶</b>
+<b> GROUP OR BOT BUGE OR മൂവി ലിങ്ക് കിട്ടുന്നില്ല ANY PROMBLEM CONTACT #ADMIN @ARAKAL_THERAVAD_MOVIES_02_bot!!!</b>"""
+    OWNER_TXT = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
+    
+<b>• ꜰᴜʟʟ ɴᴀᴍᴇ : ARAKAL THERAVAD MOVIES</b>
+<b>• Uꜱᴇʀ ɴᴀᴍᴇ : @ARAKAL_THERAVAD_MOVIES_02_bot
+• Usᴇʀ ɪᴅ :</b> <code>1297128957</code>
+    
+<b>∂σи'т вє αfяαι∂ σf вєιиg ∂ιffєяєит, вє αfяαι∂ σf вєιиg тнє ѕαмє αѕ єνєяуσиє єℓѕє</b>
+    """
 
-<b>Exᴄʟᴜꜱɪᴠᴇʟʏ Mᴀᴅᴇ Tʜɪꜱ Bᴏᴛ Fᴏʀ @ARAKAL_THERAVAD_MOVIES..!! 💫</b>!!!"""
-    HELP_TXT = "Hᴇʏ {}\nHᴇʀᴇ Mꜱ Mʏ Hᴇʟᴩ"
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂.</b>"""
+    ABOUT_TXT = """<b>ARAKAL THERAVAD MOVIES</b>
 
-
-# ⚠️ Please don't change our credits 𝚃𝙷𝙰𝙽𝙺𝚂 𝚃𝙾 & 𝙳𝙴𝚅 👇🏻
-
-    ABOUT_TXT = """<b> 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
- 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a https://t.me/ARAKAL_THERAVAD_MOVIES>ARAKAL_THERAVAD_MOVIES.𝙲𝙾𝙼</a>
- 𝚃𝙷𝙰𝙽𝙺𝚂 𝚃𝙾: <a href=https://t.me/OTT_ARAKAL_THERAVAD_MOVIESS>ARAKAL_THERAVAD_MOVIES</a>
- 𝙳𝙴𝚅: <a https://t.me/ARAKAL_THERAVAD_MOVIES> ARAKAL_THERAVAD_MOVIES </a>
- 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: ARAKAL_THERAVAD_MOVIES
- 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: ARAKAL_THERAVAD_MOVIES
- 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: ARAKAL_THERAVAD_MOVIES
- 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: ARAKAL_THERAVAD_MOVIES
- 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v2.0.1 [ 𝙱𝙴𝚃𝙰 ]</b>"""
-
-    SOURCE_TXT = """<b>NOTE:</b>
-<b>- 𝙴𝙻𝚂𝙰 𝙸𝚂 𝙾𝙿𝙴𝙽 𝚂𝙾𝚄𝚁𝙲𝙴 𝙿𝚁𝙾𝙹𝙴𝙲𝚃. 
-- 𝚂𝙾𝚄𝚁𝙲𝙴 - 𝙲𝙻𝙸𝙲𝙺 𝚁𝙴𝙿𝙾 𝙱𝚄𝚃𝚃𝙾𝙽</b>
-<b>DEVS:</b>
-- <a href=https://t.me/ARAKAL_THERAVAD_MOVIES>ARAKAL_THERAVAD_MOVIES.𝙲𝙾𝙼</a>"""
+<b>• ηαмє : ARAKAL THERAVAD MOVIES
+• υѕєя ηαмє : @ARAKAL_THERAVAD_MOVIES_02_bot
+• υѕєя ι∂ :</b> <code>1297128957</code>
+<b>• ιηѕтαgяαм :</b> <b><a href=https://instagram.com/anu_efx_offical?igshid=OGQ5ZDc2ODk2ZA==>ℓιηк</a></b>
+  
+<b>∂σи'т вє αfяαι∂ σf вєιиg ∂ιffєяєит, вє αfяαι∂ σf вєιиg тнє ѕαмє αѕ єνєяуσиє єℓѕє</b>
+    """
+    
+    HELP_TXT = """<b>Hᴇʏ {} Fʀɪᴇɴᴅ Hᴇʀᴇ Yᴏᴜʀ Bᴜᴛᴛᴏɴs 👇</b>"""
 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
