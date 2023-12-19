@@ -1248,14 +1248,7 @@ async def auto_filter(client, msg, spoll=False):
                     ),
                 ]
                 for file in files
-            ]
-
-    key = f"{message.chat.id}-{message.id}"
-    btn.insert(0,
-               [
-                   InlineKeyboardButton("Send All !",
-                                        callback_data=f"send_fall#{pre}#{message.chat.id}-{message.id}#{0}")
-               ]
+            
                )
 
     if offset != "":
