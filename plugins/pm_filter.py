@@ -1236,7 +1236,7 @@ async def auto_filter(client, msg, spoll=False):
                 for file in files
             ]
         else:
-            btn = [
+            btn = 
                 [
                     InlineKeyboardButton(
                         text=f"{file.file_name}",
