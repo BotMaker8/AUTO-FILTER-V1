@@ -1353,6 +1353,7 @@ async def auto_filter(client, msg, spoll=False):
                         await asyncio.sleep(600)
                         await fek.delete()
                         await message.reply(f"<b>Hey {message.from_user.mention} \n\nYour Request Has Been Deleted 👍 \n(Due To Avoid Copyrights Issue😌)\n\nIF YOU WANT THAT FILE, REQUEST AGAIN ❤️</b>")
+                        await asyncio.sleep(500)
                         await message.delete()
     else:
         if message.chat.id == SUPPORT_CHAT_ID:
@@ -1364,6 +1365,7 @@ async def auto_filter(client, msg, spoll=False):
                     await asyncio.sleep(600)
                     await fuk.delete()
                     await message.reply(f"<b>Hey {message.from_user.mention} \n\nYour Request Has Been Deleted 👍 \n(Due To Avoid Copyrights Issue😌)\n\nIF YOU WANT THAT FILE, REQUEST AGAIN ❤️</b>")
+                    await asyncio.sleep(500)
                     await message.delete()
             except KeyError:
                 grpid = await active_connection(str(message.from_user.id))
@@ -1373,6 +1375,7 @@ async def auto_filter(client, msg, spoll=False):
                     await asyncio.sleep(600)
                     await fuk.delete()
                     await message.reply(f"<b>Hey {message.from_user.mention} \n\nYour Request Has Been Deleted 👍 \n(Due To Avoid Copyrights Issue😌)\n\nIF YOU WANT THAT FILE, REQUEST AGAIN ❤️</b>")
+                    await asyncio.sleep(500)
                     await message.delete()
     
     if spoll:
