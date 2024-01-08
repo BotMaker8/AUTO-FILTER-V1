@@ -1309,10 +1309,9 @@ async def auto_filter(client, msg, spoll=False):
                     settings = await get_settings(message.chat.id)
                     if settings['auto_delete']:
                         await asyncio.sleep(600)
-                        await hmm.delete()
-                        await message.delete()
+                        await fuk.delete()
                         await message.reply(f"<b>Hey {message.from_user.mention} \n\nYour Request Has Been Deleted 👍 \n(Due To Avoid Copyrights Issue😌)\n\nIF YOU WANT THAT FILE, REQUEST AGAIN ❤️</b>")
-                        await asyncio.sleep(7)                        
+                        await asyncio.sleep(7)
                         await message.delete()                    
                                           
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
@@ -1325,10 +1324,9 @@ async def auto_filter(client, msg, spoll=False):
                 try:
                     if settings['auto_delete']:
                         await asyncio.sleep(600)
-                        await hmm.delete()
-                        await message.delete()
+                        await fuk.delete()
                         await message.reply(f"<b>Hey {message.from_user.mention} \n\nYour Request Has Been Deleted 👍 \n(Due To Avoid Copyrights Issue😌)\n\nIF YOU WANT THAT FILE, REQUEST AGAIN ❤️</b>")
-                        await asyncio.sleep(7)                        
+                        await asyncio.sleep(7)
                         await message.delete()
                         
                     
@@ -1342,7 +1340,7 @@ async def auto_filter(client, msg, spoll=False):
                         await hmm.delete()
                         await message.delete()
                         await message.reply(f"<b>Hey {message.from_user.mention} \n\nYour Request Has Been Deleted 👍 \n(Due To Avoid Copyrights Issue😌)\n\nIF YOU WANT THAT FILE, REQUEST AGAIN ❤️</b>")
-                        await asyncio.sleep(7)                        
+                        await asyncio.sleep(7)
                         await message.delete()
           
                        
@@ -1365,7 +1363,7 @@ async def auto_filter(client, msg, spoll=False):
                         await asyncio.sleep(600)
                         await fuk.delete()
                         await message.reply(f"<b>Hey {message.from_user.mention} \n\nYour Request Has Been Deleted 👍 \n(Due To Avoid Copyrights Issue😌)\n\nIF YOU WANT THAT FILE, REQUEST AGAIN ❤️</b>")
-                        await asyncio.sleep(7)                        
+                        await asyncio.sleep(7)
                         await message.delete()
     else:
         if message.chat.id == SUPPORT_CHAT_ID:
@@ -1376,9 +1374,9 @@ async def auto_filter(client, msg, spoll=False):
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
                     await fuk.delete()
-                        await message.reply(f"<b>Hey {message.from_user.mention} \n\nYour Request Has Been Deleted 👍 \n(Due To Avoid Copyrights Issue😌)\n\nIF YOU WANT THAT FILE, REQUEST AGAIN ❤️</b>")
-                        await asyncio.sleep(7)                        
-                        await message.delete()
+                    await message.reply(f"<b>Hey {message.from_user.mention} \n\nYour Request Has Been Deleted 👍 \n(Due To Avoid Copyrights Issue😌)\n\nIF YOU WANT THAT FILE, REQUEST AGAIN ❤️</b>")
+                    await asyncio.sleep(7)
+                    await message.delete()
             except KeyError:
                 grpid = await active_connection(str(message.from_user.id))
                 await save_group_settings(grpid, 'auto_delete', True)
@@ -1386,9 +1384,9 @@ async def auto_filter(client, msg, spoll=False):
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
                     await fuk.delete()
-                        await message.reply(f"<b>Hey {message.from_user.mention} \n\nYour Request Has Been Deleted 👍 \n(Due To Avoid Copyrights Issue😌)\n\nIF YOU WANT THAT FILE, REQUEST AGAIN ❤️</b>")
-                        await asyncio.sleep(7)                        
-                        await message.delete()
+                    await message.reply(f"<b>Hey {message.from_user.mention} \n\nYour Request Has Been Deleted 👍 \n(Due To Avoid Copyrights Issue😌)\n\nIF YOU WANT THAT FILE, REQUEST AGAIN ❤️</b>")
+                    await asyncio.sleep(7)
+                    await message.delete()
     if spoll:
         await msg.message.delete()
 
