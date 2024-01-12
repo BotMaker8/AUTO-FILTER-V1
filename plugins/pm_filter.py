@@ -1312,7 +1312,7 @@ async def auto_filter(client, msg, spoll=False):
                         await hehe.delete()
                         await message.delete()
                         fcu = await message.reply(f"<b>Hey {message.from_user.mention} \n\nYour Request Has Been Deleted 👍 \n(Due To Avoid Copyrights Issue😌)\n\nIF YOU WANT THAT FILE, REQUEST AGAIN ❤️</b>")                  
-                        await asyncio.sleep(100)
+                        await asyncio.sleep(8)
                         await fcu.delete()
                         await message.delete()
                         
@@ -1329,7 +1329,7 @@ async def auto_filter(client, msg, spoll=False):
                         await hehe.delete()
                         await message.delete()
                         fcu = await message.reply(f"<b>Hey {message.from_user.mention} \n\nYour Request Has Been Deleted 👍 \n(Due To Avoid Copyrights Issue😌)\n\nIF YOU WANT THAT FILE, REQUEST AGAIN ❤️</b>")
-                        await asyncio.sleep(100)
+                        await asyncio.sleep(8)
                         await fcu.delete()
                         await message.delete()
                         
@@ -1344,7 +1344,7 @@ async def auto_filter(client, msg, spoll=False):
                         await hehe.delete()
                         await message.delete()
                         fcu = await message.reply(f"<b>Hey {message.from_user.mention} \n\nYour Request Has Been Deleted 👍 \n(Due To Avoid Copyrights Issue😌)\n\nIF YOU WANT THAT FILE, REQUEST AGAIN ❤️</b>")
-                        await asyncio.sleep(100)
+                        await asyncio.sleep(8)
                         await fcu.delete()
                         await message.delete()
           
@@ -1368,7 +1368,7 @@ async def auto_filter(client, msg, spoll=False):
                         await asyncio.sleep(600)
                         await fuk.delete()
                         fcu = await message.reply(f"<b>Hey {message.from_user.mention} \n\nYour Request Has Been Deleted 👍 \n(Due To Avoid Copyrights Issue😌)\n\nIF YOU WANT THAT FILE, REQUEST AGAIN ❤️</b>")
-                        await asyncio.sleep(100)
+                        await asyncio.sleep(8)
                         await fcu.delete()
     else:
         if message.chat.id == SUPPORT_CHAT_ID:
@@ -1380,7 +1380,7 @@ async def auto_filter(client, msg, spoll=False):
                     await asyncio.sleep(600)
                     await fuk.delete()
                     fcu = await message.reply(f"<b>Hey {message.from_user.mention} \n\nYour Request Has Been Deleted 👍 \n(Due To Avoid Copyrights Issue😌)\n\nIF YOU WANT THAT FILE, REQUEST AGAIN ❤️</b>")
-                    await asyncio.sleep(100)
+                    await asyncio.sleep(8)
                     await fcu.delete()
             except KeyError:
                 grpid = await active_connection(str(message.from_user.id))
@@ -1390,7 +1390,7 @@ async def auto_filter(client, msg, spoll=False):
                     await asyncio.sleep(600)
                     await fuk.delete()
                     fcu = await message.reply(f"<b>Hey {message.from_user.mention} \n\nYour Request Has Been Deleted 👍 \n(Due To Avoid Copyrights Issue😌)\n\nIF YOU WANT THAT FILE, REQUEST AGAIN ❤️</b>")
-                    await asyncio.sleep(100)
+                    await asyncio.sleep(8)
                     await fcu.delete()
     if spoll:
         await msg.message.delete()
