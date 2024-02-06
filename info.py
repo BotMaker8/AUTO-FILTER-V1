@@ -86,8 +86,8 @@ MONGO_URL = os.environ.get('MONGO_URL', "")
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
 #url links
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'http://mdisk.pro')
-SHORTLINK_API = environ.get('SHORTLINK_API', '87d7b56c8b318909bf113ed56a9783dcc67ff49a')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'onepagelink.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'e1daa5cbbebafb0f84fa3afb5868d3c18290af93')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 
 #Auto approve 
@@ -104,9 +104,6 @@ REQ_CHANNEL = environ.get("REQ_CHANNEL", '-1002097366199')
 REQ_CHANNEL = int(REQ_CHANNEL) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL) else False
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
 
-#No_result
-NO_RESULTS_MSG = bool(environ.get('NO_RESULTS_MSG', True))
-NO_RESULTS_CHANNEL = int(environ.get("NO_RESULTS_CHANNEL", "-1001615904511"))
 
 # Others
 
@@ -114,8 +111,8 @@ NO_RESULTS_MSG = is_enabled((environ.get('NO_RESULTS_MSG', "True")), True)
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 PORT = os.environ.get("PORT", "8080")
 MAX_BTN = int(environ.get('MAX_BTN', "10"))
-S_GROUP = environ.get('S_GROUP',"https://t.me/ARAKAL_THERAVAD_MOVIES")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/+9ERC3yo2Kdk1ZjI1")
+S_GROUP = environ.get('S_GROUP',"https://t.me/+4dahhMBNH_85ZjI1")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/+k4DGgcG8se05Mjc1")
 FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/Grupo_filles")
 MSG_ALRT = environ.get('MSG_ALRT', '𝑪𝑯𝑬𝑪𝑲 & 𝑻𝑹𝒀 𝑨𝑳𝑳 𝑴𝒀 𝑭𝑬𝑨𝑻𝑼𝑹𝑬𝑺...')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
