@@ -1,4 +1,4 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=ᴛʜɪs+ɪs+ᴀ+ᴀᴜᴛᴏғɪʟᴛᴇʀ+ʙᴏᴛ+ᴄʀᴇᴀᴛᴇᴅ+ʙʏ+ssᴀ+ʙᴏᴛs+BY+ARAKAL_TEAM!;A+ADVANCE+BOT+WITH+COOL+FEATURES!)</p>
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=ᴛʜɪs+ɪs+ᴀ+ᴀᴜᴛᴏғɪʟᴛᴇʀ+ʙᴏᴛ+ᴄʀᴇᴀᴛᴇᴅ+ʙʏ+ssᴀ+ʙᴏᴛs!BY+ARAKAL_TEAM!;A+ADVANCE+BOT+WITH+COOL+FEATURES!)</p>
 <p align="center">
   <img src="https://telegra.ph/file/79bd83439254ed9c4bbca.jpg" alt="MatRixBotz LOGO">
 </p>
