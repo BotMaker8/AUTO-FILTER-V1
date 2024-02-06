@@ -90,11 +90,7 @@ SHORTLINK_URL = environ.get('SHORTLINK_URL', 'onepagelink.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'e1daa5cbbebafb0f84fa3afb5868d3c18290af93')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 
-#Auto approve 
-#In private group or channel must enable request admin approval 
-CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', ').split()]
-TEXT = environ.get("APPROVED_WELCOME_TEXT", "Hello {mention}\nWelcome To {title}\n\nYour request has been approved")
-APPROVED = environ.get("APPROVED_WELCOME", "off").lower()
+
 
 # FSUB
 auth_channel = environ.get('AUTH_CHANNEL')
